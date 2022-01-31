@@ -54,7 +54,7 @@ exports.Configuration = (
       React.createElement('input', {
         type: 'text',
         style: cssInput,
-        placeholder: 'Login (required)',
+        placeholder: 'Personal access tokens (required)',
         defaultValue: loginItem,
         className: 'login',
       }),
