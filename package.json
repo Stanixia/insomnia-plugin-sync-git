@@ -1,0 +1,28 @@
+{
+  "name": "insomnia-plugin-sync-git",
+  "version": "1.0.0",
+  "main": "app.js",
+  "insomnia": {
+    "name": "sync git",
+    "displayName": "Sync Git Plugin",
+    "description": "",
+    "images": {
+      "icon": "",
+      "cover": ""
+    },
+    "publisher": {
+      "name": "Sync Git",
+      "icon": ""
+    },
+    "unlisted": true
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "git-js": "^1.1.1",
+    "os": "^0.1.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "rmfr": "^2.0.0",
+    "simple-git": "^3.1.1"
+  }
+}
